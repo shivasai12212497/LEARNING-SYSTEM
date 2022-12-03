@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Learning System</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <h1 class="logo"><a href="index.html"></a>Learning System</h1>
+        <ul>
+          <li><a href="#" class="current">Home</a></li>
+          <li><a href="#">Videos</a></li>
+          <li><a href="tutors.html">Tutors</a></li>
+          <li><a href="#">Test Yourself</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <br /><br /><br />
+    <section>
+      <div class="frontpage-back">
+        <br />
+        <p class="titlehome">
+          <b>Learning System</b>
+        </p>
+        <br />
+        <div class="row">
+          <div class="col-sm desc-home">
+            An Learning paltform of your dreams, with loving teachers and
+            faculties.
+          </div>
+          <div class="col-sm desc-home">
+            <img src="lms-banner.jpg" alt="lms banner" width="60%" />
+          </div>
+        </div>
+        <br />
+        <br />
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+
+    <section style="display: flex">
+      <div id="sidebar">
+        <h3 style="text-align: center">
+          <div class="dropdown">
+            <button class="dropbtn">Choose Subject</button>
+            <div class="dropdown-content">
+              <p data-reference-id="s1" class="drp-dn-list">Maths</p>
+              <p data-reference-id="s2" class="drp-dn-list">English</p>
+              <p data-reference-id="s3" class="drp-dn-list">Chemistry</p>
+              <p data-reference-id="s4" class="drp-dn-list">Physics</p>
+            </div>
+          </div>
+        </h3>
+        <br />
+        <!-- sidebar option s1 -->
+        <div class="sidebar-options active" id="s1">
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s1-t1">
+              Sets
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s1-t2">
+              Trigonometry
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s1-t3">
+              Derivatives
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s1-t4">
+              Permutations and combinations
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s1-t5">
+              Probability
+            </button>
+          </div>
+        </div>
+        <!-- sidebar option s2 -->
+        <div class="sidebar-options" id="s2">
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s2-t1">
+              Noun
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s2-t2">
+              Pronoun
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s2-t3">
+              Verb
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s2-t4">
+              Adjective
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s2-t5">
+              Sentence
+            </button>
+          </div>
+        </div>
+        <!-- sidebar option s3 -->
+        <div class="sidebar-options" id="s3">
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s3-t1">
+              Acid
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s3-t2">
+              Base
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s3-t3">
+              Mole Concept
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s3-t4">
+              Organic chemistry
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s3-t5">
+              Biomolecule
+            </button>
+          </div>
+        </div>
+        <!-- sidebar option s4 -->
+        <div class="sidebar-options" id="s4">
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s4-t1">
+              Forces
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s4-t2">
+              Friction
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s4-t3">
+              Mechanics
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s4-t4">
+              Kinematics
+            </button>
+          </div>
+          <div class="sidebar-btn">
+            <button class="btn btn-block" data-reference-id="s4-t5">
+              Gravitation
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="content" style="flex: 0.75; padding: 10px">
+        <h3 style="text-align: center">Subject Info</h3>
+        <br />
+        <!-- Subject 1 -->
+        <div id="s1-t1" class="content-body active">
+          <h4>Sets</h4>
+          <br />
+          <p>
+            In mathematics, a set is a collection of distinct elements. The
+            elements that make up a set can be any kind of things: people,
+            letters of the alphabet, numbers, points in space, lines, other
+            geometrical shapes, variables, or even other sets. Two sets are
+            equal if and only if they have precisely the same elements
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s1-t2" class="content-body">
+          <h4>Trigonometry</h4>
+          <br />
+          <p>
+            Trigonometry is a branch of mathematics that studies relationships
+            between side lengths and angles of triangles. The field emerged in
+            the Hellenistic world during the 3rd century BC from applications of
+            geometry to astronomical studies.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s1-t3" class="content-body">
+          <h4>Derivatives</h4>
+          <br />
+          <p>
+            In mathematics, the derivative of a function of a real variable
+            measures the sensitivity to change of the function value (output
+            value) with respect to a change in its argument (input value).
+            Derivatives are a fundamental tool of calculus.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s1-t4" class="content-body">
+          <h4>Permutations and combinations</h4>
+          <br />
+          <p>
+            Permutations and combinations, the various ways in which objects
+            from a set may be selected, generally without replacement, to form
+            subsets. This selection of subsets is called a permutation when the
+            order of selection is a factor, a combination when order is not a
+            factor.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s1-t5" class="content-body">
+          <h4>Probability</h4>
+          <br />
+          <p>
+            Probability is the branch of mathematics concerning numerical
+            descriptions of how likely an event is to occur, or how likely it is
+            that a proposition is true. The probability of an event is a number
+            between 0 and 1, where, roughly speaking, 0 indicates impossibility
+            of the event and 1 indicates certainty
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <!-- Subject 2 -->
+        <div id="s2-t1" class="content-body">
+          <h4>Noun</h4>
+          <br />
+          <p>
+            A noun is a word that functions as the name of a specific object or
+            set of objects, such as living creatures, places, actions,
+            qualities, states of existence, or ideas. However, noun is not a
+            semantic category, so it cannot be characterized in terms of its
+            meaning.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s2-t2" class="content-body">
+          <h4>Pronoun</h4>
+          <br />
+          <p>
+            In linguistics and grammar, a pronoun is a word that substitutes for
+            a noun or noun phrase. Pronouns have traditionally been regarded as
+            one of the parts of speech, but some modern theorists would not
+            consider them to form a single class, in view of the variety of
+            functions they perform cross-linguistically.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s2-t3" class="content-body">
+          <h4>Verb</h4>
+          <br />
+          <p>
+            A verb, from the Latin verbum meaning word, is a word that in syntax
+            conveys an action, an occurrence, or a state of being. In the usual
+            description of English, the basic form, with or without the particle
+            to, is the infinitive. In many languages, verbs are inflected to
+            encode tense, aspect, mood, and voice.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s2-t4" class="content-body">
+          <h4>Adjective</h4>
+          <br />
+          <p>
+            In linguistics, an adjective is a word that modifies a noun or noun
+            phrase or describes its referent. Its semantic role is to change
+            information given by the noun.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s2-t5" class="content-body">
+          <h4>Sentence</h4>
+          <br />
+          <p>
+            In non-functional linguistics, a sentence is a textual unit
+            consisting of one or more words that are grammatically linked. In
+            functional linguistics, a sentence is a unit of written texts
+            delimited by graphological features such as upper case letters and
+            markers such as periods, question marks, and exclamation marks
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <!-- Subject 3 -->
+        <div id="s3-t1" class="content-body">
+          <h4>Acid</h4>
+          <br />
+          <p>
+            An acid is a molecule or ion capable of donating a proton, or,
+            alternatively, capable of forming a covalent bond with an electron
+            pair. The first category of acids are the proton donors, or
+            Brønsted–Lowry acids
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s3-t2" class="content-body">
+          <h4>Base</h4>
+          <br />
+          <p>
+            The ionic compounds that produce negative hydroxide (OH−) ions when
+            dissolved in water are called bases. A compound containing negative
+            nonmetal ion as well as a positive metal ion that is held together
+            by the ionic bond is called an ionic compound.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s3-t3" class="content-body">
+          <h4>Mole Concept</h4>
+          <br />
+          <p>
+            The mole is the unit of measurement for amount of substance in the
+            International System of Units. It is defined as exactly
+            6.02214076×10²³ particles, which may be atoms, molecules, ions, or
+            electrons.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s3-t4" class="content-body">
+          <h4>Organic chemistry</h4>
+          <br />
+          <p>
+            Organic chemistry is a branch of chemistry that studies the
+            structure, properties and reactions of organic compounds, which
+            contain carbon in covalent bonding. Study of structure determines
+            their chemical composition and formula.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s3-t5" class="content-body">
+          <h4>Biomolecule</h4>
+          <br />
+          <p>
+            A biomolecule or biological molecule is a loosely used term for
+            molecules present in organisms that are essential to one or more
+            typically biological processes, such as cell division,
+            morphogenesis, or development.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <!-- Subject 4 -->
+        <div id="s4-t1" class="content-body">
+          <h4>Forces</h4>
+          <br />
+          <p>
+            Forces can be described as a push or pull on an object. They can be
+            due to phenomena such as gravity, magnetism, or anything that might
+            cause a mass to accelerate.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s4-t2" class="content-body">
+          <h4>Friction</h4>
+          <br />
+          <p>
+            Friction is the force resisting the relative motion of solid
+            surfaces, fluid layers, and material elements sliding against each
+            other
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s4-t3" class="content-body">
+          <h4>Mechanics</h4>
+          <br />
+          <p>
+            Mechanics, science concerned with the motion of bodies under the
+            action of forces, including the special case in which a body remains
+            at rest. Of first concern in the problem of motion are the forces
+            that bodies exert on one another.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s4-t4" class="content-body">
+          <h4>Kinematics</h4>
+          <br />
+          <p>
+            Kinematics is a subfield of physics, developed in classical
+            mechanics, that describes the motion of points, bodies, and systems
+            of bodies without considering the forces that cause them to move.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+        <div id="s4-t5" class="content-body">
+          <h4>Gravitation</h4>
+          <br />
+          <p>
+            Movement, or a tendency to move, towards a centre of gravity, as in
+            the falling of bodies to the earth.
+          </p>
+          <br />
+          <br />
+          <div class="join-btn">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              style="width: 50%"
+            >
+              Join
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br /><br /><br />
+    <footer class="page-footer dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h5>Get started</h5>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="subscribe.html">Sign up</a></li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h5>About us</h5>
+            <ul>
+              <li><a href="contact-us.html">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h5>Support</h5>
+            <ul>
+              <li><a href="index.html#faqs">FAQs</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>Learning System © 2021 Copyright</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
